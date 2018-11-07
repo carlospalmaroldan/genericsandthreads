@@ -49,7 +49,7 @@ public class FileServer {
         }
     }
 
-    private static String processMessage(Socket connection) throws IOException{
+    public static String processMessage(Socket connection) throws IOException{
         BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(connection.getInputStream()));
         String message=bufferedReader.readLine();
         List<String> filenames=new ArrayList<>();
