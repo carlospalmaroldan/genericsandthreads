@@ -27,11 +27,12 @@
         </dependency>
 
 
-        <dependency>
-            <groupId>com.oracle.jdbc</groupId>
-            <artifactId>ojdbc8</artifactId>
-            <version>18.3.0.0.0</version>
-        </dependency>
+        <!--   <dependency>
+               <groupId>com.oracle</groupId>
+               <artifactId>ojdbc</artifactId>
+               <version>14</version>
+           </dependency>         https://mvnrepository.com/artifact/com.oracle/ojdbc -->
+
 
 
         <dependency>

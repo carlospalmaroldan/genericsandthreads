@@ -1,13 +1,10 @@
 package generics.threads.exercises;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-import sun.text.resources.iw.FormatData_iw_IL;
+
 
 import java.io.*;
-import java.net.ConnectException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
