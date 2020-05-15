@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ee294c-d68a-4206-ba0a-91aaa5c79020" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/producerconsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/producerconsumer/MainProduceConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/producerconsumer/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/producerconsumer/MyWaitNotify3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/producerconsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/queueproducerconsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/queueproducerconsumer/LimitedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/queueproducerconsumer/MainProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/queueproducerconsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/queueproducerconsumer/SharedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generics2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Generics2.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/image/Checkers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generics2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Generics2.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/FileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/image/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/threads/exercises/image/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/generics/Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/Box.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/generics/BoxCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/BoxCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/generics/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/Car.class" afterDir="false" />
@@ -99,14 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sThreshold</find>
-      <find>println</find>
-      <find>outgoing</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="carlospalma03@gmail.com" />
+        <option value="Carlos Palma &lt;carlospalma03@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -124,6 +109,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -139,14 +126,14 @@
       <recent name="C:\Users\carlos.palma\workspace\Generics2\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainProducerConsumer">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.threads.examples.mockwebserver.Client" />
+  <component name="RunManager" selected="Application.Checkers">
+    <configuration name="Checkers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.image.Checkers" />
       <module name="Generics2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.threads.examples.mockwebserver.*" />
+          <option name="PATTERN" value="generics.threads.exercises.image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,13 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.threads.examples.mockwebserver.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.image.Main" />
       <module name="Generics2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.threads.examples.mockwebserver.*" />
+          <option name="PATTERN" value="generics.threads.exercises.image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProduceConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.producerconsumer.MainProduceConsumer" />
+    <configuration name="MainBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.Barrier.MainBarrier" />
       <module name="Generics2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.threads.exercises.producerconsumer.*" />
+          <option name="PATTERN" value="generics.threads.exercises.Barrier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,13 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.queueproducerconsumer.MainProducerConsumer" />
+    <configuration name="MainLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.latch.MainLatch" />
       <module name="Generics2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.threads.exercises.queueproducerconsumer.*" />
+          <option name="PATTERN" value="generics.threads.exercises.latch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,13 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.threads.Future.TwoTasks" />
+    <configuration name="MainMultipleProducersConsumers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.threads.exercises.multipleproducersconsumers.MainMultipleProducersConsumers" />
       <module name="Generics2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.threads.Future.*" />
+          <option name="PATTERN" value="generics.threads.exercises.multipleproducersconsumers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +219,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TwoTasks" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.MainProduceConsumer" />
-      <item itemvalue="Application.MainProducerConsumer" />
+      <item itemvalue="Application.MainMultipleProducersConsumers" />
+      <item itemvalue="Application.MainLatch" />
+      <item itemvalue="Application.MainBarrier" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Checkers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainProducerConsumer" />
-        <item itemvalue="Application.MainProduceConsumer" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.TwoTasks" />
+        <item itemvalue="Application.Checkers" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainBarrier" />
+        <item itemvalue="Application.MainLatch" />
+        <item itemvalue="Application.MainMultipleProducersConsumers" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +265,35 @@
       <workItem from="1544735132037" duration="8295000" />
       <workItem from="1544795147433" duration="2993000" />
     </task>
+    <task id="LOCAL-00001" summary="implementing producer consumer with multiple consumers and producers">
+      <created>1589400465947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589400465947</updated>
+    </task>
+    <task id="LOCAL-00002" summary="small latch example">
+      <created>1589402743555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589402743555</updated>
+    </task>
+    <task id="LOCAL-00003" summary="small Barrier example, barrier is reused to see its advantage over latch">
+      <created>1589480153456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589480153456</updated>
+    </task>
+    <task id="LOCAL-00004" summary="small Example using executor service to paint an image. As many threads as rows.">
+      <created>1589577443450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589577443450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -287,47 +302,67 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementing producer consumer. First with a limited amount of messages, then with a limited queue" />
+    <MESSAGE value="implementing producer consumer with multiple consumers and producers" />
+    <MESSAGE value="small latch example" />
+    <MESSAGE value="small Barrier example, barrier is reused to see its advantage over latch" />
+    <MESSAGE value="small Example using executor service to paint an image. As many threads as rows." />
+    <option name="LAST_COMMIT_MESSAGE" value="small Example using executor service to paint an image. As many threads as rows." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="4" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589571678187">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="4" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1097.577@0.0.1097.577" timestamp="1589571678187" />
     <state x="304" y="0" key="#xdebugger.evaluate" timestamp="1589294865848">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
     <state x="304" y="0" key="#xdebugger.evaluate/0.0.1097.577@0.0.1097.577" timestamp="1589294865848" />
-    <state width="1054" height="142" key="GridCell.Tab.0.bottom" timestamp="1589299327433">
+    <state x="-3" y="0" width="921" height="577" key="CommitChangelistDialog2" timestamp="1589577442328">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="142" key="GridCell.Tab.0.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589299327433" />
-    <state width="1054" height="142" key="GridCell.Tab.0.center" timestamp="1589299327433">
+    <state x="-3" y="0" width="921" height="577" key="CommitChangelistDialog2/0.0.1097.577@0.0.1097.577" timestamp="1589577442328" />
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom" timestamp="1589580941436">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="142" key="GridCell.Tab.0.center/0.0.1097.577@0.0.1097.577" timestamp="1589299327433" />
-    <state width="1054" height="142" key="GridCell.Tab.0.left" timestamp="1589299327433">
+    <state width="1054" height="2" key="GridCell.Tab.0.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589580941436" />
+    <state width="1054" height="2" key="GridCell.Tab.0.center" timestamp="1589580941436">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="142" key="GridCell.Tab.0.left/0.0.1097.577@0.0.1097.577" timestamp="1589299327433" />
-    <state width="1054" height="142" key="GridCell.Tab.0.right" timestamp="1589299327433">
+    <state width="1054" height="2" key="GridCell.Tab.0.center/0.0.1097.577@0.0.1097.577" timestamp="1589580941436" />
+    <state width="1054" height="2" key="GridCell.Tab.0.left" timestamp="1589580941436">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="142" key="GridCell.Tab.0.right/0.0.1097.577@0.0.1097.577" timestamp="1589299327433" />
-    <state width="1054" height="164" key="GridCell.Tab.1.bottom" timestamp="1589297877027">
+    <state width="1054" height="2" key="GridCell.Tab.0.left/0.0.1097.577@0.0.1097.577" timestamp="1589580941436" />
+    <state width="1054" height="2" key="GridCell.Tab.0.right" timestamp="1589580941436">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="164" key="GridCell.Tab.1.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589297877027" />
-    <state width="1054" height="164" key="GridCell.Tab.1.center" timestamp="1589297877027">
+    <state width="1054" height="2" key="GridCell.Tab.0.right/0.0.1097.577@0.0.1097.577" timestamp="1589580941436" />
+    <state width="1054" height="164" key="GridCell.Tab.1.bottom" timestamp="1589479491741">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="164" key="GridCell.Tab.1.center/0.0.1097.577@0.0.1097.577" timestamp="1589297877027" />
-    <state width="1054" height="164" key="GridCell.Tab.1.left" timestamp="1589297877027">
+    <state width="1054" height="164" key="GridCell.Tab.1.bottom/0.0.1097.577@0.0.1097.577" timestamp="1589479491741" />
+    <state width="1054" height="164" key="GridCell.Tab.1.center" timestamp="1589479491741">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="164" key="GridCell.Tab.1.left/0.0.1097.577@0.0.1097.577" timestamp="1589297877027" />
-    <state width="1054" height="164" key="GridCell.Tab.1.right" timestamp="1589297877027">
+    <state width="1054" height="164" key="GridCell.Tab.1.center/0.0.1097.577@0.0.1097.577" timestamp="1589479491741" />
+    <state width="1054" height="164" key="GridCell.Tab.1.left" timestamp="1589479491740">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state width="1054" height="164" key="GridCell.Tab.1.right/0.0.1097.577@0.0.1097.577" timestamp="1589297877027" />
+    <state width="1054" height="164" key="GridCell.Tab.1.left/0.0.1097.577@0.0.1097.577" timestamp="1589479491740" />
+    <state width="1054" height="164" key="GridCell.Tab.1.right" timestamp="1589479491741">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state width="1054" height="164" key="GridCell.Tab.1.right/0.0.1097.577@0.0.1097.577" timestamp="1589479491741" />
     <state x="58" y="0" key="SettingsEditor" timestamp="1589220326055">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
     <state x="58" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1589220326055" />
+    <state x="141" y="22" key="Vcs.Push.Dialog.v2" timestamp="1589577455811">
+      <screen x="0" y="0" width="1097" height="577" />
+    </state>
+    <state x="141" y="22" key="Vcs.Push.Dialog.v2/0.0.1097.577@0.0.1097.577" timestamp="1589577455811" />
     <state x="206" y="125" key="run.anything.popup" timestamp="1589235323477">
       <screen x="0" y="0" width="1097" height="577" />
     </state>

@@ -32,7 +32,7 @@ public class Main extends Application {
 
         Canvas canvas = new Canvas(width,height);
         g = canvas.getGraphicsContext2D();
-        
+
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         for(int i =0; i< height; i++){
             executorService.execute(new RowDrawer(i,Color.BLUE));
