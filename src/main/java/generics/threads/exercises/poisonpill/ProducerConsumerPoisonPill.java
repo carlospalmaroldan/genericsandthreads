@@ -21,10 +21,10 @@ public class ProducerConsumerPoisonPill {
                     synchronized (this){count++;}
                 }
             } catch (InterruptedException e) {
-                System.out.println("capture time");
+              //  System.out.println("capture time");
                 //Exit code 0 (successful termination) even though an exception is shown on the console
                 //e.printStackTrace();
-                System.out.println(e.getCause());
+              //  System.out.println(e.getCause());
 
             }
             finally {
