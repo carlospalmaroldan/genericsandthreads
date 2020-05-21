@@ -73,6 +73,23 @@ public class Matrix {
         return distance;
     }
 
+    public int positionDistance(){
+        int distance = 0;
+        for(int i =0; i< array.length;i++){
+            for(int j=0;j< array[0].length;j++){
+                if(array[i][j] != array.length*i+j+1){
+                    if(array[i][j] == 0){
+                        distance = distance + 2 -i +2-j;
+                    }else{
+                        int num = array[i][j];
+                        distance = distance + Math.abs(i-(num-1)/array.length) + Math.abs(j-(num-1)%array.length);
+                    }
+                }
+            }
+        }
+        return distance;
+    }
+
     public String toString(){
         StringBuilder stringBuilder  = new StringBuilder();
         for(int i =0; i < array.length;i++){

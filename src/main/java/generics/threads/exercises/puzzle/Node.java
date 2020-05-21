@@ -65,7 +65,9 @@ public class Node{
         return matrix.distance(otherNode.getMatrix());
     }
 
-
+    public int positionDistance(){
+        return matrix.positionDistance();
+    }
 
     public String toString(){
         return matrix.toString();
